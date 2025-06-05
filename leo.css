@@ -1,0 +1,259 @@
+.top-banner {
+    background-color: #001f3f; /* Bleu marine */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.button-style {
+            background-color: #001f3f;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+.button-container{
+    margin:20px 0;
+    width:70%;
+    margin: 5px auto; /* Centre le contenu horizontalement*/
+
+}
+
+.containerleftright{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin: 5px auto; /* Centre le contenu horizontalement*/
+}
+
+.left, .right{
+    width:60%;
+    padding: 5px;
+}
+
+.main{
+display: flex;
+    flex: 1; /*nombre de section après la première section*/
+    width: 70%; /*Ajoute des marges de 30% de chaque côté*/
+    margin: 20px auto;
+}
+
+.content{
+    width:80%;
+    padding:20px;
+}
+
+    .sectionsleft{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.sectionleft{
+    background-color: #f0f0f0;
+    width:230px;
+    padding:10px;
+    margin:10px;
+}
+
+.button-ceremony {
+  background-color: whitesmoke; /*couleur de fond*/
+  color: #001f3f; /*couleur du texte*/
+  border: 5px solid black; /*bordure*/
+  padding: 15px 25px; /*espace autour du texte*/
+  text-align: center; /*alignement du texte*/
+  font-size: 18px; /*taille du texte*/
+  font-weight: bold; /*gras*/
+  margin: 10px 10px; /*marge autour du bouton*/
+  border-radius: 10px; /*coins arrondis*/
+  font-family: 'Time New Roman'; /*police d'écriture*/
+}
+
+.containerbutton {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#monVideo, #monImage {
+    display: block;
+    margin: 20px auto; /* centre horizontalement + espace */
+}
+
+.ceremony-wrapper {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.containerbutton {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espace entre les boutons */
+    margin-top: 20px;
+}
+
+.top-banner2 {
+  display: flex;
+  align-items: center;         /* aligne verticalement l'image et le texte */
+  padding: 10px 20px;
+  background-color: #f5f5f5;   /* optionnel : pour une meilleure visibilité */
+}
+
+.logo-accueil {
+  margin-right: 15px;          /* espace entre l'image et le texte */
+}
+
+.titre-hobbies {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;                   /* retire la marge par défaut */
+  color: #001f3f;              /* harmonisé avec le reste */
+}
+
+body.hobbies-page {
+  background-color: #001f3f; /* bleu marine */
+  margin: 0;
+  padding: 0;
+  color: white; /* pour que le texte soit lisible sur le fond foncé */
+  font-family: Arial, sans-serif;
+}
+
+body.formation-page {
+  background-color: #001f3f; /* bleu marine */
+  margin: 0;
+  padding: 0;
+  color: white; /* pour que le texte soit lisible sur le fond foncé */
+  font-family: Arial, sans-serif;
+}
+
+.texte-formation {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+}
+
+body.professionnel-page {
+  background-color: #001f3f; /* bleu marine */
+  margin: 0;
+  padding: 0;
+  color: white; /* pour que le texte soit lisible sur le fond foncé */
+  font-family: Arial, sans-serif;
+}
+
+.photo-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.photo-container {
+    position: relative;
+    width: 300px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-container .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* fond noir transparent */
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 16px;
+    word-wrap: break-word;      /* force le retour à la ligne */
+    overflow-wrap: break-word;  /* gère mieux les mots longs */
+    white-space: normal;        /* autorise les retours à la ligne */
+    box-sizing: border-box;
+}
+
+.photo-container:hover .overlay {
+    opacity: 1;
+}
+
+.photo-container:hover {
+    transform: scale(1.05);
+}
+
+.description-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    color: #001f3f; /* texte bleu marine */
+}
+
+body.spv-page {
+  background-color: #001f3f; /* bleu marine */
+  margin: 0;
+  padding: 0;
+  color: white; /* pour que le texte soit lisible sur le fond foncé */
+  font-family: Arial, sans-serif;
+}
+
+.presentation-div {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    color: #001f3f; /* texte bleu marine */
+    text-align: center;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.photo-row img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 600px) {
+    .photo-row img {
+        width: 100%;
+    }
+}
